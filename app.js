@@ -1,6 +1,6 @@
 
 var TwitterPackage = require('twitter');
-var TwitterStream = require('twitter-stream-api'), fs = require('fs')
+var TwitterStream = require('twitter-stream-api'), fs = require('fs');
 
 
 var tokens {

@@ -1,9 +1,8 @@
 
-var TwitterPackage = require('twitter');
-var TwitterStream = require('twitter-stream-api'), fs = require('fs');
+var twitterpack = require('twitter');
 
 
-var tokens {
+var struct {
   consumer_key: 'iuXFMU69WJSaaqAe9yVvr30CF',
   consumer_secret: 'r3uy3ZRh9oXPuBoK7Dfj3zoiZ2nUOTBWUjP4DqtGXIlzzbxbOY',
   token_key: '	194272370-zNHmdL43N6RZJeOtJeH8ZhrursJUQlAqCycHqxbl',
@@ -12,7 +11,6 @@ var tokens {
 }
 
 var Twitter = new TwitterPackage(secret);
-var TwitterStr = new TwitterStream(keys, false);
-TwitterStr.stream('statuses/filter', {
-  track: 'javascript'
-});
+
+
+console.log("hello world!");

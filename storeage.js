@@ -1,3 +1,5 @@
+//connect to the twitter stream api and listen for messages containing the word 
+//"kenny is a bitch"
 
 var TwitterStream = require('twitter-stream-api'), fs = require('fs');
 var mongo = require('mongodb');

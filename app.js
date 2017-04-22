@@ -11,3 +11,6 @@ var struct {
 }
 
 var Twitter = new TwitterPackage(secret);
+
+
+console.log("hello world!");
